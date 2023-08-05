@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LokinExam</string>
+    <string name="cretae_account">Create an account</string>
+    <string name="login"> Already have an account? <font color="#585CE5"> Login</font></string>
+</resources>
