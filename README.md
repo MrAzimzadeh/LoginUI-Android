@@ -1,6 +1,10 @@
 ﻿# LoginUI-Android
+ ```
 1 - Məqsəd Burada Vievdakı  dataları  tutmaq və bu  sayədə Vievdaki dataları hər səfərində yeniden yaradamq yerinə içindəki dataları təkrar istifadə oluna biləcək hala gətirməkdir
- 2 -
+
+```
+```
+2 -
     fun trycatch() {
         try {
             // some code that might throw an exception
@@ -10,6 +14,8 @@
             // optional finally block
         }
     }
+```
+```
 3 - 
 interface Component {
     fun operation(): String
@@ -30,7 +36,9 @@ class ConcreteDecoratorFirst(component: Component) : Decorator(component) {
 class ConcreteDecoratorLast(component: Component) : Decorator(component) {
     override fun operation() = "${super.operation()} +  Last compnent "
 }
+```
 
+```
 4 -
 fun main()
 {
@@ -39,8 +47,8 @@ fun main()
     println(uniqueArray) // Output: [1, 2, 3]
 
 }
-
-
+```
+```
 5 - 
 fun main(args: Array<String>) {
     val e: String? = "Salam"
@@ -48,17 +56,19 @@ fun main(args: Array<String>) {
         println("Sagol")
     }
 }
-
+```
 
  7-  Object 
-
+```
 8   -  Sinif cagrildigi zaman ise  dusen  ilk method 
   a - class test(var a: Int )
     {}
   b - class test () {
       constructor(a: Int, b:Int)
   }
+```
 
+```
 9 - 
 bu battern alt class lar ozleri yeni  bir Obyekt  Yaradmaga imakan verir 
 10 - 
@@ -87,9 +97,10 @@ class GenerateFactory  {
         }
     }
 }
- 
-11 -  LiveData  datalarda deyisiklik oldugunda  update olunur ozu  numune desek meselen api den gelen deyerlerde eger ki deyiskilik olsa bu zaman onnan referans alan her yer de ki datalar deyisilib yeni gelen deterleri qebul edecek  
+ ```
 
+11 -  LiveData  datalarda deyisiklik oldugunda  update olunur ozu  numune desek meselen api den gelen deyerlerde eger ki deyiskilik olsa bu zaman onnan referans alan her yer de ki datalar deyisilib yeni gelen deterleri qebul edecek  
+```
 14  -  Singleton pattern - Static classlara yaranir 
 object  Com {
 }
@@ -115,14 +126,15 @@ data class Home(var rooms: Int, var roof: String , var color : String  ) {
         }
     }
 }
+```
 
 
-
+```
 13 - fun maxNUm(array: IntArray): Int {
     array.sortDescending()
     return array[0] * array[1]
 }
-
+```
 12 - MOdel - view Presenter 
 
 6 - Liskov 
